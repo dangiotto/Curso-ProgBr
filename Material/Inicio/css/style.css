@@ -1,0 +1,117 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+#paragrafos {
+    color: white;
+   
+    
+    background-image: url(../fundos/backbody.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   /*Cobrir todo o body*/
+    background-attachment: fixed; /*Paralax*/
+}
+
+#cm {
+    background: blue;
+    width: 1cm;
+    height: 1cm;
+}
+
+#mm{
+    background: red;
+    width: 5mm;
+    height: 5mm;
+}
+
+#in{
+    background: blue;
+    width: 1in;
+    height: 1in;
+}
+
+#px{
+    background: red;
+    width: 10px;
+    height: 10px;
+}
+
+#pt{
+    background: blue;
+    width: 10px;
+    height: 10px;
+}
+
+#pc{
+    background: red;
+    width: 1pc;
+    height: 1pc;
+} 
+
+/*html{
+    font-size: 20px;
+}*/
+
+.container{
+    width: 200px;
+    height: 100px;
+    background: red;
+
+
+}
+
+.inside {
+    width: 80%;
+    height: 50%;
+    background: blue;
+
+  
+}
+
+.borda {
+    border-width: 5px;
+    border-style: solid;
+    border-color: green;
+    border-radius: 5px;
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+}
+
+#square {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 10px solid blue;
+    padding: 10px;
+
+    box-sizing: border-box;
+}
+
+#square2 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    
+} 
+
+a#link{
+    margin: 20px;
+    
+
+    display: block;
+
+    text-decoration: none;
+    color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+a#link:hover {
+    color: black;
+}
