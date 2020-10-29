@@ -197,7 +197,7 @@ footer a:hover{
     header #tit-header {
     
         text-align: left;
-        font-size: clamp(40pt, 7vw, 57pt);
+        font-size: clamp(40pt, 11vw, 57pt);
         left: 37%;
         top: 61%;
         
@@ -207,19 +207,10 @@ footer a:hover{
         header #tit-header {
         
             text-align: center;
-            font-size: clamp(40pt, 7vw, 57pt);
             left: 50%;
-            top: 55%;
+            top: 42%;
+            width: 300px;
             background: #f42c0d3f;
-            
+            font-size: 53px;
         } 
-    
-    @media (max-width: 485px) {
-    header #tit-header {
-    
-   
-        font-size: clamp(35pt, 6vw, 40pt);
-        
-        
-    } 
 }
