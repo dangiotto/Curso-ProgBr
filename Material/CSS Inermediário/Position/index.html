@@ -17,22 +17,24 @@
 
       .relative {
         position: relative;
+        
       }
 
       .fixed {
         position: fixed;
-        right: 20px;
+        right: 200px;
         bottom: 20px;
       }
 
       .absolute {
         position: absolute;
-        top: 40px;
+        left: 60px;
       }
 
       .sticky {
           position: sticky;
-          top: 0;
+          top: 20px;
+          
       }
 
       .quadrado {
@@ -42,10 +44,10 @@
       }
 
       .ret {
-        width: 200px;
+        width: 120px;
         height: 500px;
         margin-top: 10px;
-        overflow:auto;
+        overflow: scroll;
       }
 
       .bg-red {
@@ -60,15 +62,23 @@
           background: green;
       }
 
+      .bg-black {
+        background: black;
+      }
+
     </style>
   </head>
   <body>
+    <div class="quadrado bg-blue fixed">
+      <div class="quadrado bg-black absolute"></div>
+    </div>
+
     <div class="bg-blue ret">
         <div class="quadrado bg-red"></div>
         <div class="quadrado bg-green sticky"></div>
         <div class="quadrado bg-red"></div>
         <div class="quadrado bg-red"></div>
-        <div class="quadrado bg-red"></div>
+        <p class="quadrado bg-red"></p>
         <div class="quadrado bg-red"></div>
         <div class="quadrado bg-red"></div>
         <div class="quadrado bg-red"></div>

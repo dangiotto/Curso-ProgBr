@@ -1,0 +1,5 @@
+Static = não recebe valores de top, left, bottom, right.
+Relative = Possui o mesmo posicionamento inicial do Static e pode receber valores de T,B,R,L que serão aplicados em relação à posição original.
+Absolute = Possui posicionamento inicial igual ao Static, porém se o elemento pai for diferente do tipo Static, as atribuições T,B,R,L serão a partirdo início dele.
+Fixed = Apresenta sua posição em relação à VP e recebe valores T,B,R,L.
+Sticky = Fica posicionado até no limite máximo o limite definido nos valores T,B,R,L em relação ao pai. Se move, mas não desaparece.
